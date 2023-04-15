@@ -13,20 +13,21 @@ btnSim.addEventListener("click", function() {
 
 });
 
- // Não
+ // para o não
 btnNao.addEventListener("click", function() {
 
   opcoes.style.display = "none";
 
 });
 
+// para o "ligar"
 btnLigar.addEventListener("click", function() {
 
   window.location.href = "tel: +55 190";
 
 });
 
-
+// e para o enviar
 formularioDenuncia.addEventListener("submit", function(event) {
 
     var textoDenuncia = document.getElementById("texto-denuncia").value;
