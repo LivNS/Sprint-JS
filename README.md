@@ -1,5 +1,7 @@
 # Sprint-JS
 Projeto para o challenge da IBM
+Sprint de JavaScript
+
 
 Debora da Silva Amaral - RM 550412 <br>
 Lívia Namba Seraphim - RM 97819 <br>
