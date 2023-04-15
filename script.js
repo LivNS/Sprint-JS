@@ -29,12 +29,13 @@ btnLigar.addEventListener("click", function() {
 
 formularioDenuncia.addEventListener("submit", function(event) {
 
- //denuncia 
+    var textoDenuncia = document.getElementById("texto-denuncia").value;
 
-var textoDenuncia = document.getElementById("texto-denuncia").value;
-  
- formularioDenuncia.reset();
-  alert("Sua denúncia foi enviada com sucesso!!!! Obrigado pela colaboração!");
- // mensagem de confirmação ao usuário
+//mensagem finalização
+
+    formularioDenuncia.reset();
+ 
+        alert("Sua denúncia foi enviada com sucesso!!!! Obrigado pela colaboração!");
 
   });
+  
